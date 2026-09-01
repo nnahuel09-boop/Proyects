@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("imagenes/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+a, .a, .o, .u {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    color: #f2bacc;
+    text-shadow: 8px 2px 6px rgb(243, 215, 233);
+    text-decoration: none;
+
+    justify-content: center;
+    display: flex;
+       animation: subir 1.5s ease-out forwards;
+}
+
+a:hover{
+    color: #f9d2de;
+    text-shadow: 8px 2px 6px rgb(251, 225, 236);
+}
+ 
+
+@keyframes subir {
+    from {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+span{
+    margin: 0;
+    padding: 0;
+
+}
